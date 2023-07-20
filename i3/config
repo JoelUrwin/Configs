@@ -171,6 +171,12 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 bindsym $mod2+s exec "flameshot gui"
 # reload the configuration file
 bindsym $mod+Shift+c reload
+# open top
+bindsym $mod2+Shift+t exec "st -e top"
+# open pycharm
+bindsym $mod2+Shift+p exec --no-startup-id "/home/$LOGNAME/pycharm/bin/pycharm.sh"
+# open file manager
+bindsym $mod2+Shift+f exec "st -e ranger"
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
