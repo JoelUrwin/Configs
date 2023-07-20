@@ -173,6 +173,8 @@ bindsym $mod2+s exec "flameshot gui"
 bindsym $mod+Shift+c reload
 # open top
 bindsym $mod2+Shift+t exec "st -e top"
+#open lazydocker (tui docker manager)
+bindsym $mod2+Shift+d exec "st -e lazydocker"
 # open pycharm
 bindsym $mod2+Shift+p exec --no-startup-id "/home/$LOGNAME/pycharm/bin/pycharm.sh"
 # open file manager
